@@ -1,0 +1,19 @@
+{
+    "name": "andrius/nfq_homework",
+    "description": "NFQ Homework",
+    "homepage": "https://github.com/AndriusIn/NFQ-Homework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrius Inčiura",
+            "email": "andrius.inciura@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "files": ["not_typed.php", "soft.php", "strict.php"]
+    }
+}
