@@ -5,7 +5,7 @@ NFQ namų darbai
 $ php -f index.php
 calculateHomeWorkSum: 6.2
 Nfq\Akademija\NotTyped\calculateHomeWorkSum: 6
-Nfq\Akademija\Soſt\calculateHomeWorkSum: 6
+Nfq\Akademija\Soft\calculateHomeWorkSum: 6
 Nfq\Akademija\Strict\calculateHomeWorkSum: 6
 ```
 ## Pirma funkcija
@@ -42,10 +42,10 @@ function calculateHomeWorkSum(...$numbers): int {
 ```
 ## Trečia funkcija
 ```console
-Nfq\Akademija\Soſt\calculateHomeWorkSum(3, 2.2, '1'): 6
+Nfq\Akademija\Soft\calculateHomeWorkSum(3, 2.2, '1'): 6
 ```
 ```php
-namespace Nfq\Akademija\Soſt;
+namespace Nfq\Akademija\Soft;
 
 function calculateHomeWorkSum(int...$numbers): int {
     $sum = 0;
