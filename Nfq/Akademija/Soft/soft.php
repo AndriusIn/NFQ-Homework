@@ -1,5 +1,5 @@
 <?php
-namespace Nfq\Akademija\Soſt;
+namespace Nfq\Akademija\Soft;
 
 function calculateHomeWorkSum(int...$numbers): int {
     $sum = 0;
